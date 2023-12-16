@@ -405,19 +405,27 @@ var gKeyboard = (function(window, document, undefined) {
 
     // fill <li> element
     element.innerHTML = '';
-    // create <strong> for 'shift'
-    var strong = document.createElement('strong');
-    var strongStr = document.createTextNode(shift);
-    strong.appendChild(strongStr);
-    element.appendChild(strong);
-    // append <em> for 'base' if necessary (not a letter)
-    if (shift.toLowerCase() != base) {
-      var em = document.createElement('em');
-      var emStr = document.createTextNode(base);
-      em.appendChild(emStr);
-      element.appendChild(em);
-    }
 
+    // append <em> for 'base' if necessary (not a letter)
+		if (shift != null) {
+			// create <strong> for 'shift'
+			
+			var strong = document.createElement('strong');
+			var strongStr = document.createTextNode(shift);
+			strong.appendChild(strongStr);
+			element.appendChild(strong);			
+			if (shift.toLowerCase() != base) {
+				var em = document.createElement('em');
+				var emStr = document.createTextNode(base);
+				em.appendChild(emStr);
+				element.appendChild(em);
+			}
+		} else {
+			var strong = document.createElement('strong');
+			var strongStr = document.createTextNode(base);
+			strong.appendChild(strongStr);
+			element.appendChild(strong);			
+		}
     // store current key in the main hash table
     keymap[base] = element;
     keymap[shift] = element;
