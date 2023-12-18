@@ -672,6 +672,22 @@ var gTypist = (function(window, document, undefined) {
     ui.txtInput.focus();
 
     gKeyboard.highlightKey(text.substring(0, 1));
+		
+		// set language direction
+		var lang = document.getElementById('lesson');
+		var opt = lang.options[lang.selectedIndex];
+		let dir = opt.getAttribute("data-dir");
+		if(dir == 'rtl')
+		{
+			document.getElementById('txtPrompt').setAttribute("dir", "rtl");
+			document.getElementById('txtInput').setAttribute("dir", "rtl");
+			document.getElementById("txtPrompt").style.fontSize ="18px";
+			document.getElementById("txtInput").style.fontSize ="18px";
+		} else {
+			document.getElementById("txtPrompt").style.fontSize ="15px";
+			document.getElementById("txtInput").style.fontSize ="15px";			
+		}
+		
   }
 
   // find which key has been pressed

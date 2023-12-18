@@ -4,7 +4,7 @@
   <meta charset="utf-8">
   <meta name="description" content="A free, open-source, online typing tutor.">
   <title> Web Typist </title>
-
+	<link rel="icon" type="image/png" href="https://cloud.yadikar.it/assets/images/Logo/y_logo.png" sizes="48x48">
   <link type="text/css" rel="stylesheet" href="css/layout.css">
   <link type="text/css" rel="stylesheet" href="css/keyboard.css">
   <link type="text/css" rel="stylesheet" href="css/webtypist.css">
@@ -29,27 +29,27 @@
 
       <form id="lessonSelector">
         <select id="lesson">
-          <option value="catalan">           Català              </option>
-          <option value="danish">            Dansk (1)           </option>
-          <option value="danish2">           Dansk (2)           </option>
-          <option value="german">            Deutsch (1)         </option>
-          <option value="german2">           Deutsch (2)         </option>
-          <option value="german3">           Deutsch (3)         </option>
-          <option value="english" selected>  English             </option>
-					<option value="uyghur">  				   Uyghur              </option>
-          <option value="spanish">           Español             </option>
-          <option value="french">            Français (1)        </option>
-          <option value="french2">           Français (2)        </option>
-          <option value="italian">           Italiano            </option>
-          <option value="hungarian">         Magyar              </option>
-          <option value="hungarian_expert">  Magyar (expert)     </option>
-          <option value="nederlands">        Nederlands          </option>
-          <option value="nederlands_junior"> Nederlands (junior) </option>
-          <option value="norwegian">         Norsk               </option>
-          <option value="polish">            Polski              </option>
-          <option value="slovenian">         Slovensko           </option>
-          <option value="finnish">           Suomi               </option>
-          <option value="finnish_for_kids">  Suomi (junior)      </option>
+          <option value="catalan" data-dir="ltr">           Català              </option>
+          <option value="danish" data-dir="ltr">            Dansk (1)           </option>
+          <option value="danish2" data-dir="ltr">           Dansk (2)           </option>
+          <option value="german" data-dir="ltr">            Deutsch (1)         </option>
+          <option value="german2" data-dir="ltr">           Deutsch (2)         </option>
+          <option value="german3" data-dir="ltr">           Deutsch (3)         </option>
+          <option value="english" data-dir="ltr" selected>  English             </option>
+					<option value="uyghur" data-dir="rtl">  				  Uyghur              </option>
+          <option value="spanish" data-dir="ltr">           Español             </option>
+          <option value="french" data-dir="ltr">            Français (1)        </option>
+          <option value="french2" data-dir="ltr">           Français (2)        </option>
+          <option value="italian" data-dir="ltr">           Italiano            </option>
+          <option value="hungarian" data-dir="ltr">         Magyar              </option>
+          <option value="hungarian_expert" data-dir="ltr">  Magyar (expert)     </option>
+          <option value="nederlands" data-dir="ltr">        Nederlands          </option>
+          <option value="nederlands_junior" data-dir="ltr"> Nederlands (junior) </option>
+          <option value="norwegian" data-dir="ltr">         Norsk               </option>
+          <option value="polish" data-dir="ltr">            Polski              </option>
+          <option value="slovenian" data-dir="ltr">         Slovensko           </option>
+          <option value="finnish" data-dir="ltr">           Suomi               </option>
+          <option value="finnish_for_kids" data-dir="ltr">  Suomi (junior)      </option>
           <!-- Cyrillic layouts, not ready yet
           <option value="bulgarian">         bulgarian (1)       </option>
           <option value="bulgarian_long">    bulgarian (2)       </option>
@@ -60,13 +60,13 @@
           -->
           <!-- Dvorak layouts -->
           <option disabled> -- Dvorak -- </option>
-          <option value="dvorak_ABCD">       dvorak (abcd)       </option>
-          <option value="german.neo">        Deutsch (neo)       </option>
-          <option value="dvorak">            English (dvorak)    </option>
-          <option value="dvorak_es">         Español (dvorak-ES) </option>
-          <option value="bepo">              Français (bépo)     </option>
-          <option value="fr-dvorak-bepo-1">  Français (bépo-1)   </option>
-          <option value="fr-dvorak-bepo-2">  Français (bépo-2)   </option>
+          <option value="dvorak_ABCD" data-dir="ltr">       dvorak (abcd)       </option>
+          <option value="german.neo" data-dir="ltr">        Deutsch (neo)       </option>
+          <option value="dvorak" data-dir="ltr">            English (dvorak)    </option>
+          <option value="dvorak_es" data-dir="ltr">         Español (dvorak-ES) </option>
+          <option value="bepo" data-dir="ltr">              Français (bépo)     </option>
+          <option value="fr-dvorak-bepo-1" data-dir="ltr">  Français (bépo-1)   </option>
+          <option value="fr-dvorak-bepo-2" data-dir="ltr">  Français (bépo-2)   </option>
         </select>
         <select id="level">
           <option value="-1"> (loading…) </option>
@@ -378,7 +378,7 @@
     </div>
 
     <div id="footer">
-      Copyleft 2010-2013 Kazé &amp; Léo
+      <p>Powered by <a href="https://cloud.yadikar.it/" target="_blank">Yadikar Cloud</a></p>
     </div>
   </div>
 </body>

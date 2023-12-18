@@ -1,7 +1,7 @@
 ## balance-words, characters-per-lesson=1000, lesson-title-prefix=Lezione
 ا ق
 د ك
-ﺲ ﻟ
+ل س
 ھ غ
 ن ت
 ڭ ۈ
@@ -15,5 +15,4 @@
 ج ف
 خ گ
 ۆ ژ
-لا
 ئ
