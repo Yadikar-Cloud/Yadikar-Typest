@@ -130,6 +130,11 @@
       "description": "Уроки для ktouch українською.\nСтворено 15 вересня 2006 року.\nАвтор: Янович Борис (Yanovych Borys, borman@univ.kiev.ua)",
       "layouts": [ "ua" ]
     },
+    "ug": {
+      "title": "Uyghur (auto-generated)",
+      "description": "KTouch training file generated Tue Jan 30 17:00:58 2024\nPython Script written by Simone Gaiarin.",
+      "layouts": [ "ug" ]
+    },		
     "us.colemak": {
       "title": "English (USA) Colemak (auto-generated)",
       "description": "2005-12-15 Shai Coleman, http://colemak.com/ . Public domain.\nModified by Sascha Peilicke 2008-08-07",
@@ -176,6 +181,7 @@
     "pt":              "Português",
     "ru":              "Русская",
     "ru(legacy)":      "Русская (legacy)",
+		"ug":              "Uyghur",
     "us":              "English (US)",
     "us(colemak)":     "English (US, Colemak)",
     "us(dvorak)":      "English (US, Dvorak)",
