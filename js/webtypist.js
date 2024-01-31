@@ -681,8 +681,8 @@ var gTypist = (function(window, document, undefined) {
 		{
 			document.getElementById('txtPrompt').setAttribute("dir", "rtl");
 			document.getElementById('txtInput').setAttribute("dir", "rtl");
-			document.getElementById("txtPrompt").setAttribute("style", "font-family: 'UKIJCJKRegular';");
-			document.getElementById("txtInput").setAttribute("style", "font-family: 'UKIJCJKRegular';");
+			document.getElementById("txtPrompt").setAttribute("style", "font-family: 'ukij';");
+			document.getElementById("txtInput").setAttribute("style", "font-family: 'ukij';");
 		} else {
 			document.getElementById('txtPrompt').setAttribute("dir", "ltr");
 			document.getElementById('txtInput').setAttribute("dir", "ltr");			

@@ -1,6 +1,10 @@
 /******************************************************************************
  * Full-height page, vertically justified content
  */
+@font-face {
+  font-family: ukij;
+  src: url(./ukij.ttf);
+}
 
 html {
   background-color: #ccc;
@@ -78,6 +82,7 @@ footer {
 form * {
   margin: 0 6px 6px 0;
   vertical-align: middle;
+	font-family: Verdana,ukij;
 }
 
 label[for] {
@@ -99,6 +104,7 @@ textarea {
   padding: 0;
   resize: none;
   width: 100%;
+	font-size: 16px;
 }
 
 .hints textarea {

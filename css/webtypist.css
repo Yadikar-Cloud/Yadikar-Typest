@@ -3,6 +3,11 @@
  * Full-height page with sticky footer
  */
 
+@font-face {
+  font-family: ukij;
+  src: url(../v2/ukij.ttf);
+}
+
 html, body {
   height: 100%;
   width: 100%;
@@ -50,6 +55,9 @@ html, body {
   color: brown;
 }
 
+#level {
+	font-family: Verdana,ukij;
+}
 
 /******************************************************************************
  * Main text prompt/input area

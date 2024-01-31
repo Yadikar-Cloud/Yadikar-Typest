@@ -114,6 +114,22 @@ const gTypist = (function(window, document, undefined) {
     ui.txtInput.value = '';
     ui.txtInput.focus();
     highlightKey(text.substr(0, 1));
+		
+		//console.log(document.getElementById('layout').value);
+		// set language direction
+		var lang = document.getElementById('layout').value;
+		if(lang == 'ug') // put all rtl language code with or logic here
+		{
+			document.getElementById('txtPrompt').setAttribute("dir", "rtl");
+			document.getElementById('txtInput').setAttribute("dir", "rtl");
+			document.getElementById("txtPrompt").setAttribute("style", "font-family: 'ukij';");
+			document.getElementById("txtInput").setAttribute("style", "font-family: 'ukij';");
+		} else {
+			document.getElementById('txtPrompt').setAttribute("dir", "ltr");
+			document.getElementById('txtInput').setAttribute("dir", "ltr");			
+			document.getElementById("txtPrompt").setAttribute("style", "font-family:;");
+			document.getElementById("txtInput").setAttribute("style", "font-family:;");
+		}		
   }
 
   // required to work around a Chrome bug, see the `keyup` listener below

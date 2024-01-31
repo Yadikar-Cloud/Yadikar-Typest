@@ -28,7 +28,7 @@ const main = `
   }
   text {
     fill: ${KEY_COLOR};
-    font: normal 20px sans-serif;
+    font: normal 20px ukij;
     text-align: center;
   }
   #Backspace text {
