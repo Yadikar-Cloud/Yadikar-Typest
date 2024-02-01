@@ -1,0 +1,242 @@
+﻿{
+	"us": {
+		"langdesc": "English",
+		"Title": "Yadikar Typing Practice",
+		"Description": "Your best tutor to learn typing on touch keyboard.",
+		"Unit": " cpm",
+		"Errors": " errors",
+		"Auto": "(auto)",
+		"Hints": "hints",
+		"PoweredBy": "Powered by <a href=\"https://cloud.yadikar.it/\" target=\"_blank\">Yadikar Cloud</a>"
+	},
+	"gb(dvorak)": {
+		"langdesc": "English (UK, Dvorak)",
+		"Title": "Yadikar Typing Practice",
+		"Description": "Your best tutor to learn typing on touch keyboard.",
+		"Unit": " cpm",
+		"Errors": " errors",
+		"Auto": "(auto)",
+		"Hints": "hints",
+		"PoweredBy": "Powered by <a href=\"https://cloud.yadikar.it/\" target=\"_blank\">Yadikar Cloud</a>"
+	},
+	"gb": {
+		"langdesc": "English (UK)",
+		"Title": "Yadikar Typing Practice",
+		"Description": "Your best tutor to learn typing on touch keyboard.",
+		"Unit": " cpm",
+		"Errors": " errors",
+		"Auto": "(auto)",
+		"Hints": "hints",
+		"PoweredBy": "Powered by <a href=\"https://cloud.yadikar.it/\" target=\"_blank\">Yadikar Cloud</a>"
+	},
+	"us(colemak)": {
+		"langdesc": "English (US, Colemak)",
+		"Title": "Yadikar Typing Practice",
+		"Description": "Your best tutor to learn typing on touch keyboard.",
+		"Unit": " cpm",
+		"Errors": " errors",
+		"Auto": "(auto)",
+		"Hints": "hints",
+		"PoweredBy": "Powered by <a href=\"https://cloud.yadikar.it/\" target=\"_blank\">Yadikar Cloud</a>"
+	},
+	"us(dvorak)": {
+		"langdesc": "English (US, Dvorak)",
+		"Title": "Yadikar Typing Practice",
+		"Description": "Your best tutor to learn typing on touch keyboard.",
+		"Unit": " cpm",
+		"Errors": " errors",
+		"Auto": "(auto)",
+		"Hints": "hints",
+		"PoweredBy": "Powered by <a href=\"https://cloud.yadikar.it/\" target=\"_blank\">Yadikar Cloud</a>"
+	},
+	"us(workman)": {
+		"langdesc": "English (US, Workman)",
+		"Title": "Yadikar Typing Practice",
+		"Description": "Your best tutor to learn typing on touch keyboard.",
+		"Unit": " cpm",
+		"Errors": " errors",
+		"Auto": "(auto)",
+		"Hints": "hints",
+		"PoweredBy": "Powered by <a href=\"https://cloud.yadikar.it/\" target=\"_blank\">Yadikar Cloud</a>"
+	},	
+	"be": {
+		"langdesc": "België",
+		"Title": "Практика за писане на Yadikar",
+		"Description": "Вашият най-добър учител за научаване на писане на сензорна клавиатура.",
+		"Unit": " cpm",
+		"Errors": " грешки",
+		"Auto": "(Авто)",
+		"Hints": "намеци",
+		"PoweredBy": "Задвижвани от <a href=\"https://cloud.yadikar.it/\" target=\"_blank\">Yadikar Cloud</a>"
+	},	
+	"bg": {
+		"langdesc": "Bulgarian",
+		"Title": "Практика за писане на Yadikar",
+		"Description": "Вашият най-добър учител за научаване на писане на сензорна клавиатура.",
+		"Unit": " cpm",
+		"Errors": " грешки",
+		"Auto": "(Авто)",
+		"Hints": "намеци",
+		"PoweredBy": "Задвижвани от <a href=\"https://cloud.yadikar.it/\" target=\"_blank\">Yadikar Cloud</a>"
+	},
+	"de": {
+		"langdesc": "Deutsch",
+		"Title": "Yadikar-Schreibübungen",
+		"Description": "Ihr bester Tutor, um das Tippen auf der Touch-Tastatur zu lernen.",
+		"Unit": " cpm",
+		"Errors": " Fehler",
+		"Auto": "(авто)",
+		"Hints": "hinweise",
+		"PoweredBy": "Angetrieben von <a href=\"https://cloud.yadikar.it/\" target=\"_blank\">Yadikar Cloud</a>"
+	},
+	"ch": {
+		"langdesc": "Deutsch (Schweiz)",
+		"Title": "Yadikar-Schreibübungen",
+		"Description": "Ihr bester Tutor, um das Tippen auf der Touch-Tastatur zu lernen.",
+		"Unit": " cpm",
+		"Errors": " Fehler",
+		"Auto": "(авто)",
+		"Hints": "hinweise",
+		"PoweredBy": "Angetrieben von <a href=\"https://cloud.yadikar.it/\" target=\"_blank\">Yadikar Cloud</a>"
+	},	
+	"es": {
+		"langdesc": "Spanish",
+		"Title": "Práctica de Mecanografía de Yadikar",
+		"Description": "Tu mejor tutor para aprender a escribir en el teclado táctil.",
+		"Unit": " cpm",
+		"Errors": " errores",
+		"Auto": "(auto)",
+		"Hints": "pistas",
+		"PoweredBy": "Energizado por <a href=\"https://cloud.yadikar.it/\" target=\"_blank\">Yadikar Cloud</a>"
+	},
+	"latam": {
+		"langdesc": "Español (latinoamarican)",
+		"Title": "Práctica de Mecanografía de Yadikar",
+		"Description": "Tu mejor tutor para aprender a escribir en el teclado táctil.",
+		"Unit": " cpm",
+		"Errors": " errores",
+		"Auto": "(auto)",
+		"Hints": "pistas",
+		"PoweredBy": "Energizado por <a href=\"https://cloud.yadikar.it/\" target=\"_blank\">Yadikar Cloud</a>"
+	},	
+	"fr": {
+		"langdesc": "French",
+		"Title": "Pratique de Frappe Yadikar",
+		"Description": "Votre meilleur tuteur pour apprendre à taper sur un clavier tactile.",
+		"Unit": " cpm",
+		"Errors": " erreurs",
+		"Auto": "(auto)",
+		"Hints": "astuces",
+		"PoweredBy": "Alimenté par <a href=\"https://cloud.yadikar.it/\" target=\"_blank\">Yadikar Cloud</a>"
+	},
+	"fr(afnor)": {
+		"langdesc": "Français (afnor)",
+		"Title": "Pratique de Frappe Yadikar",
+		"Description": "Votre meilleur tuteur pour apprendre à taper sur un clavier tactile.",
+		"Unit": " cpm",
+		"Errors": " erreurs",
+		"Auto": "(voiture)",
+		"Hints": "astuces",
+		"PoweredBy": "Alimenté par <a href=\"https://cloud.yadikar.it/\" target=\"_blank\">Yadikar Cloud</a>"
+	},
+	"fr(bepo)": {
+		"langdesc": "Français (bépo)",
+		"Title": "Pratique de Frappe Yadikar",
+		"Description": "Votre meilleur tuteur pour apprendre à taper sur un clavier tactile.",
+		"Unit": " cpm",
+		"Errors": " erreurs",
+		"Auto": "(voiture)",
+		"Hints": "astuces",
+		"PoweredBy": "Alimenté par <a href=\"https://cloud.yadikar.it/\" target=\"_blank\">Yadikar Cloud</a>"
+	},
+	"fr(dvorak)": {
+		"langdesc": "Français (dvorak-fr)",
+		"Title": "Pratique de Frappe Yadikar",
+		"Description": "Votre meilleur tuteur pour apprendre à taper sur un clavier tactile.",
+		"Unit": " cpm",
+		"Errors": " erreurs",
+		"Auto": "(voiture)",
+		"Hints": "astuces",
+		"PoweredBy": "Alimenté par <a href=\"https://cloud.yadikar.it/\" target=\"_blank\">Yadikar Cloud</a>"
+	},
+	"fr(lafayette)": {
+		"langdesc": "Français (Lafayette)",
+		"Title": "Pratique de Frappe Yadikar",
+		"Description": "Votre meilleur tuteur pour apprendre à taper sur un clavier tactile.",
+		"Unit": " cpm",
+		"Errors": " erreurs",
+		"Auto": "(voiture)",
+		"Hints": "astuces",
+		"PoweredBy": "Alimenté par <a href=\"https://cloud.yadikar.it/\" target=\"_blank\">Yadikar Cloud</a>"
+	},
+	"fr(qwerty42)": {
+		"langdesc": "Français (qwerty42)",
+		"Title": "Pratique de Frappe Yadikar",
+		"Description": "Votre meilleur tuteur pour apprendre à taper sur un clavier tactile.",
+		"Unit": " cpm",
+		"Errors": " erreurs",
+		"Auto": "(voiture)",
+		"Hints": "astuces",
+		"PoweredBy": "Alimenté par <a href=\"https://cloud.yadikar.it/\" target=\"_blank\">Yadikar Cloud</a>"
+	},	
+	"it": {
+		"langdesc": "Italiana",
+		"Title": "Pratica di Dattilografia Yadikar",
+		"Description": "Il tuo miglior tutor per imparare a digitare sulla tastiera touch.",
+		"Unit": " cpm",
+		"Errors": " errori",
+		"Auto": "(auto)",
+		"Hints": "consigli",
+		"PoweredBy": "Offerto da <a href=\"https://cloud.yadikar.it/\" target=\"_blank\">Yadikar Cloud</a>"
+	},
+	"pt": {
+		"langdesc": "Português",
+		"Title": "Prática de Digitação Yadikar",
+		"Description": "Seu melhor tutor para aprender a digitar no teclado virtual.",
+		"Unit": " cpm",
+		"Errors": " erros",
+		"Auto": "(auto)",
+		"Hints": "dicas",
+		"PoweredBy": "Distribuído por <a href=\"https://cloud.yadikar.it/\" target=\"_blank\">Yadikar Cloud</a>"
+	},
+	"br": {
+		"langdesc": "Português (Brasileiro)",
+		"Title": "Prática de Digitação Yadikar",
+		"Description": "Seu melhor tutor para aprender a digitar no teclado virtual.",
+		"Unit": " cpm",
+		"Errors": " erros",
+		"Auto": "(auto)",
+		"Hints": "dicas",
+		"PoweredBy": "Distribuído por <a href=\"https://cloud.yadikar.it/\" target=\"_blank\">Yadikar Cloud</a>"
+	},	
+	"ug": {
+		"langdesc": "ئۇيغۇرچە",
+		"Title": "يادىكار قول كۆندۈرۈش مەشىقى",
+		"Description": "سىزنىڭ كومپيۇتېردا خەت بېسىشنى ئۆگىنىشىڭىزدىكى ئەڭ ياخشى ئۇستازىڭىز.",
+		"Unit": " خاتالىقلار",
+		"Errors": " مىنۇتلۇق بېسىش",
+		"Auto": "(ئۆز)",
+		"Hints": "ئىشارەت",
+		"PoweredBy": "<a href=\"https://cloud.yadikar.it/\" target=\"_blank\">يادىكار بۇلۇت</a> تېخنىكىسى"
+	},
+	"ru": {
+		"langdesc": "Russian",
+		"Title": "Практика набора текста Ядикара",
+		"Description": "Ваш лучший репетитор, который научит печатать на сенсорной клавиатуре.",
+		"Unit": " cpm",
+		"Errors": " ошибки",
+		"Auto": "(авто)",
+		"Hints": "намеки",
+		"PoweredBy": "Питаться от <a href=\"https://cloud.yadikar.it/\" target=\"_blank\">Yadikar Cloud</a>"
+	},
+	"ru(legacy)": {
+		"langdesc": "Russian (legacy)",
+		"Title": "Практика набора текста Ядикара",
+		"Description": "Ваш лучший репетитор, который научит печатать на сенсорной клавиатуре.",
+		"Unit": " cpm",
+		"Errors": " ошибки",
+		"Auto": "(авто)",
+		"Hints": "намеки",
+		"PoweredBy": "Питаться от <a href=\"https://cloud.yadikar.it/\" target=\"_blank\">Yadikar Cloud</a>"
+	}	
+}

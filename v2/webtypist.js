@@ -124,11 +124,15 @@ const gTypist = (function(window, document, undefined) {
 			document.getElementById('txtInput').setAttribute("dir", "rtl");
 			document.getElementById("txtPrompt").setAttribute("style", "font-family: 'ukij';");
 			document.getElementById("txtInput").setAttribute("style", "font-family: 'ukij';");
+			document.getElementById("header").setAttribute("dir", "rtl");
+			document.getElementById("footer").setAttribute("style", "text-align: left;");
 		} else {
 			document.getElementById('txtPrompt').setAttribute("dir", "ltr");
 			document.getElementById('txtInput').setAttribute("dir", "ltr");			
 			document.getElementById("txtPrompt").setAttribute("style", "font-family:;");
 			document.getElementById("txtInput").setAttribute("style", "font-family:;");
+			document.getElementById("header").setAttribute("dir", "ltr");
+			document.getElementById("footer").setAttribute("style", "text-align: right;");
 		}		
   }
 

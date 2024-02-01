@@ -9,23 +9,70 @@
   <script src="./webtypist.js" type="text/javascript" defer></script>
   <link href="./webtypist.css" type="text/css" rel="stylesheet">
 </head>
-<body>
-  <header>
-    <h1> Yadikar Web Typist <small>v2</small> </h1>
-    <p> A typing tutor for modern web browsers. </p>
+<script type="text/javascript" src="multilang.js"></script>
+<script type="text/javascript">
+	var multilang;
+	
+	function onLoad() {
+		// create object, load JSON file, default to 'nl', and callback to initList when ready loading
+		//multilang = new MultiLang('languages.json', 'nl', this.initList);
+		
+		// alternatively
+		multilang = new MultiLang('languages.json', null, this.initList); // default to browser language
+		//multilang = new MultiLang('languages.json'); // only load JSON, no callback
+	}
+
+	function langSelectChange(sel) {
+		// switch to selected language code
+		multilang.setLanguage(sel.value);
+		
+		// refresh labels
+		refreshLabels();
+	}
+
+	function initList() {
+		// get language list element
+		var layout = document.getElementById("layout");
+		langSelectChange(layout);
+	}
+			
+	function refreshLabels() {
+
+		// Basically do the following for all document elements:
+		//document.getElementById("Options").textContent = multilang.get("Options");
+
+		// loop through all document elements
+		var allnodes = document.body.getElementsByClassName("translate");
+
+		for (var i=0, max=allnodes.length; i < max; i++) {
+			// get id current elements
+			var string = allnodes[i].getAttribute("data-string");
+			// if id exists, set get id current elements
+			if (string != '') {
+				allnodes[i].innerHTML = multilang.get(string);
+			};
+		};
+	}
+</script>
+<body onload="onLoad()">
+  <header id="header">
+    <h1 class="translate" data-string="Title"> Yadikar Typing Practice </h1>
+    <p class="translate" data-string="Description"> Your best tutor to learn typing on touch keyboard. </p>
   </header>
 
   <div>
     <div id="metrics">
-      <span id="speed">0</span> cpm
-      <span id="accuracy">0</span> errors
+      <span id="speed">0</span>
+			<span class="translate" data-string="Unit"> cpm</span>
+      <span id="accuracy">0</span>
+			<span class="translate" data-string="Errors"> errors</span>
     </div>
     <form>
-      <select id="layout">
+      <select id="layout" onchange="langSelectChange(this)">
         <option> (loading…) </option>
       </select>
       <select id="shape">
-        <option value="" selected>(auto)</option>
+        <option value="" selected class="translate" data-string="Auto">(auto)</option>
         <option value="alt">  ALT  </option>
         <option value="abnt"> ABNT </option>
         <option value="iso">  ISO  </option>
@@ -33,7 +80,7 @@
         <option value="ol60"> TMx  </option>
       </select>
       <input id="hints" type="checkbox">
-      <label for="hints"> hints </label>
+      <label for="hints" class="translate" data-string="Hints"> hints </label>
     </form>
     <form>
       <select id="lesson">
@@ -60,8 +107,8 @@
     <p>Loading web component…</p>
   </x-keyboard>
 
-  <footer>
-    <p>Powered by <a href="https://cloud.yadikar.it/" target="_blank">Yadikar Cloud</a></p>
+  <footer id="footer">
+    <p class="translate" data-string="PoweredBy">Powered by <a href="https://cloud.yadikar.it/" target="_blank">Yadikar Cloud</a></p>
   </footer>
 </body>
 </html>

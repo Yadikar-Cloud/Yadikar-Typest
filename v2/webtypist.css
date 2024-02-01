@@ -42,6 +42,7 @@ x-keyboard p {
 
 header, footer {
   color: brown;
+	font-family: Georgia, 'UKIJ';
 }
 
 h1 {
@@ -77,6 +78,7 @@ footer {
 #metrics {
   float: right;
   margin-top: 6px;
+	font-family: Georgia,ukij;
 }
 
 form * {
