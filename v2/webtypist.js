@@ -1,4 +1,4 @@
-const keylayoutBaseURL = 'http://webtypist.com/v2/x-keyboard-master/layouts';
+const keylayoutBaseURL = 'https://typist.yadikar.it/v2/x-keyboard-master/layouts';
 
 
 /******************************************************************************
