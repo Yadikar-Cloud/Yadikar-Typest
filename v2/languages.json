@@ -219,6 +219,16 @@
 		"Hints": "ئىشارەت",
 		"PoweredBy": "<a href=\"https://cloud.yadikar.it/\" target=\"_blank\">يادىكار بۇلۇت</a> تېخنىكىسى"
 	},
+	"tr": {
+		"langdesc": "Türkçe",
+		"Title": "Yadikar Yazma Alıştırması",
+		"Description": "Dokunmatik klavyede yazmayı öğrenmek için en iyi öğretmeniniz.",
+		"Unit": " dbt",
+		"Errors": " hatalar",
+		"Auto": "(Oto)",
+		"Hints": "ipuçları",
+		"PoweredBy": "<a href=\"https://cloud.yadikar.it/\" target=\"_blank\">Yadikar Cloud</a> Tarafından Desteklenmektedir"
+	},	
 	"ru": {
 		"langdesc": "Russian",
 		"Title": "Практика набора текста Ядикара",
