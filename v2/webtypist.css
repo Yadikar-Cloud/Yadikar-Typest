@@ -6,6 +6,10 @@
   src: url(./ukij.ttf);
 }
 
+:root {
+  --form-dir: rtl;
+}
+
 html {
   background-color: #ccc;
   border: none;
@@ -85,6 +89,7 @@ form * {
   margin: 0 6px 6px 0;
   vertical-align: middle;
 	font-family: Verdana,ukij;
+	direction: var(--form-dir);
 }
 
 label[for] {

@@ -1,4 +1,4 @@
-const keylayoutBaseURL = 'https://typist.yadikar.it/v2/x-keyboard-master/layouts';
+const keylayoutBaseURL = 'x-keyboard-master/layouts';
 
 
 /******************************************************************************
@@ -124,6 +124,7 @@ const gTypist = (function(window, document, undefined) {
 			document.getElementById('txtInput').setAttribute("dir", "rtl");
 			document.getElementById("txtPrompt").setAttribute("style", "font-family: 'ukij';");
 			document.getElementById("txtInput").setAttribute("style", "font-family: 'ukij';");
+			document.documentElement.style.setProperty('--form-dir', 'rtl');
 			document.getElementById("header").setAttribute("dir", "rtl");
 			document.getElementById("footer").setAttribute("style", "text-align: left;");
 		} else {
@@ -131,6 +132,7 @@ const gTypist = (function(window, document, undefined) {
 			document.getElementById('txtInput').setAttribute("dir", "ltr");			
 			document.getElementById("txtPrompt").setAttribute("style", "font-family:;");
 			document.getElementById("txtInput").setAttribute("style", "font-family:;");
+			document.documentElement.style.setProperty('--form-dir', '');
 			document.getElementById("header").setAttribute("dir", "ltr");
 			document.getElementById("footer").setAttribute("style", "text-align: right;");
 		}		
