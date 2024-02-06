@@ -113,29 +113,7 @@ const gTypist = (function(window, document, undefined) {
     ui.txtInput.className = '';
     ui.txtInput.value = '';
     ui.txtInput.focus();
-    highlightKey(text.substr(0, 1));
-		
-		//console.log(document.getElementById('layout').value);
-		// set language direction
-		var lang = document.getElementById('layout').value;
-		if(lang == 'ug') // put all rtl language code with or logic here
-		{
-			document.getElementById('txtPrompt').setAttribute("dir", "rtl");
-			document.getElementById('txtInput').setAttribute("dir", "rtl");
-			document.getElementById("txtPrompt").setAttribute("style", "font-family: 'ukij';");
-			document.getElementById("txtInput").setAttribute("style", "font-family: 'ukij';");
-			document.documentElement.style.setProperty('--form-dir', 'rtl');
-			document.getElementById("header").setAttribute("dir", "rtl");
-			document.getElementById("footer").setAttribute("style", "text-align: left;");
-		} else {
-			document.getElementById('txtPrompt').setAttribute("dir", "ltr");
-			document.getElementById('txtInput').setAttribute("dir", "ltr");			
-			document.getElementById("txtPrompt").setAttribute("style", "font-family:;");
-			document.getElementById("txtInput").setAttribute("style", "font-family:;");
-			document.documentElement.style.setProperty('--form-dir', '');
-			document.getElementById("header").setAttribute("dir", "ltr");
-			document.getElementById("footer").setAttribute("style", "text-align: right;");
-		}		
+    highlightKey(text.substr(0, 1));	
   }
 
   // required to work around a Chrome bug, see the `keyup` listener below
@@ -320,3 +298,26 @@ ui.level .addEventListener('change', e => state.level    = e.target.value);
 ui.layout.addEventListener('change', e => state.layout   = e.target.value);
 ui.shape .addEventListener('change', e => state.geometry = e.target.value);
 ui.hints .addEventListener('change', e => state.hints    = e.target.checked);
+
+function adjustDirection() {
+	// set language direction
+	var lang = document.getElementById('layout').value;
+	if(lang == 'ug') // put all rtl language code with or logic here
+	{
+		document.getElementById('txtPrompt').setAttribute("dir", "rtl");
+		document.getElementById('txtInput').setAttribute("dir", "rtl");
+		document.getElementById("txtPrompt").setAttribute("style", "font-family: 'ukij';");
+		document.getElementById("txtInput").setAttribute("style", "font-family: 'ukij';");
+		document.documentElement.style.setProperty('--form-dir', 'rtl');
+		document.getElementById("header").setAttribute("dir", "rtl");
+		document.getElementById("footer").setAttribute("style", "text-align: left;");
+	} else {
+		document.getElementById('txtPrompt').setAttribute("dir", "ltr");
+		document.getElementById('txtInput').setAttribute("dir", "ltr");			
+		document.getElementById("txtPrompt").setAttribute("style", "font-family:;");
+		document.getElementById("txtInput").setAttribute("style", "font-family:;");
+		//document.documentElement.style.setProperty('--form-dir', 'ltr');
+		document.getElementById("header").setAttribute("dir", "ltr");
+		document.getElementById("footer").setAttribute("style", "text-align: right;");
+	}
+}

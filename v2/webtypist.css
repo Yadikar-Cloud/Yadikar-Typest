@@ -7,7 +7,7 @@
 }
 
 :root {
-  --form-dir: rtl;
+  --form-dir:ltr;
 }
 
 html {
