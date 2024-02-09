@@ -316,7 +316,7 @@ function adjustDirection() {
 		document.getElementById('txtInput').setAttribute("dir", "ltr");			
 		document.getElementById("txtPrompt").setAttribute("style", "font-family:;");
 		document.getElementById("txtInput").setAttribute("style", "font-family:;");
-		//document.documentElement.style.setProperty('--form-dir', 'ltr');
+		document.documentElement.style.setProperty('--form-dir', 'ltr');
 		document.getElementById("header").setAttribute("dir", "ltr");
 		document.getElementById("footer").setAttribute("style", "text-align: right;");
 	}
