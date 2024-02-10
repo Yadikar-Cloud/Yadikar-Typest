@@ -1,5 +1,5 @@
 import { newKeyboardLayout } from './x-keyboard-layout.js';
-import { svgContent, drawKey, drawDK } from './content.js?v=1.0';
+import { svgContent, drawKey, drawDK } from './content.js';
 import css from './style.js';
 
 /**
