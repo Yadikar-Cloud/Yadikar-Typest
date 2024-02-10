@@ -96,7 +96,7 @@ const gKey = (className, finger, x, id, children = emptyKey) => sgml('g', {
 const keyLevel = (level, label, position) => {
   const attrs = { ...position };
   const symbol = dkSymbols[label] || '';
-  const content = symbol || (label || '').slice(-1);
+  const content = symbol || (label || '');
   let className = '';
   if (level > 4) {
     className = 'dk';
