@@ -13,3 +13,6 @@ The tool is developed as a static web page completely. You can host it on a web-
 
 # Bug reports
 Please use the [issue tracker](https://github.com/Yadikar-Cloud/Yadikar-Typest/issues) provided by GitHub to send us bug reports or feature requests. Follow the template's instructions or the issue will likely be ignored or closed as invalid.
+
+# License
+GPLv2 "or later" by default, LGPLv2.1 "or later" with -Dgpl=false. See [details](https://github.com/Yadikar-Cloud/Yadikar-Typest/blob/main/LICENSE).
