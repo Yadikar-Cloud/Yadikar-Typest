@@ -1,7 +1,7 @@
 # Yadikar Typing Practice
 Multi-language multi-layout typing practice website. The tool is based on the [Web Typist](https://github.com/OneDeadKey/webtypist). This version hosts the keyboard layout module locally instead of fetching it from another source. More features are added:
 1. Uyghur, Turkish Layouts Added
-2. Localization to all supported layouts
+2. Localization to all supported languages
 3. No external dependancy
 4. Supports RTL languages
 5. Lesson generator
