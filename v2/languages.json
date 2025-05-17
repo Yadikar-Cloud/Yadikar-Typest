@@ -7,7 +7,7 @@
 		"Errors": " errors",
 		"Auto": "(auto)",
 		"Hints": "hints",
-		"PoweredBy": "Powered by <a href=\"https://cloud.yadikar.it/\" target=\"_blank\">Yadikar Cloud</a>"
+		"PoweredBy": "Powered by <a href=\"https://www.yadikar.it/\" target=\"_blank\">Yadikar</a>"
 	},
 	"gb(dvorak)": {
 		"langdesc": "English (UK, Dvorak)",
@@ -17,7 +17,7 @@
 		"Errors": " errors",
 		"Auto": "(auto)",
 		"Hints": "hints",
-		"PoweredBy": "Powered by <a href=\"https://cloud.yadikar.it/\" target=\"_blank\">Yadikar Cloud</a>"
+		"PoweredBy": "Powered by <a href=\"https://www.yadikar.it/\" target=\"_blank\">Yadikar</a>"
 	},
 	"gb": {
 		"langdesc": "English (UK)",
@@ -27,7 +27,7 @@
 		"Errors": " errors",
 		"Auto": "(auto)",
 		"Hints": "hints",
-		"PoweredBy": "Powered by <a href=\"https://cloud.yadikar.it/\" target=\"_blank\">Yadikar Cloud</a>"
+		"PoweredBy": "Powered by <a href=\"https://www.yadikar.it/\" target=\"_blank\">Yadikar</a>"
 	},
 	"us(colemak)": {
 		"langdesc": "English (US, Colemak)",
@@ -37,7 +37,7 @@
 		"Errors": " errors",
 		"Auto": "(auto)",
 		"Hints": "hints",
-		"PoweredBy": "Powered by <a href=\"https://cloud.yadikar.it/\" target=\"_blank\">Yadikar Cloud</a>"
+		"PoweredBy": "Powered by <a href=\"https://www.yadikar.it/\" target=\"_blank\">Yadikar</a>"
 	},
 	"us(dvorak)": {
 		"langdesc": "English (US, Dvorak)",
@@ -47,7 +47,7 @@
 		"Errors": " errors",
 		"Auto": "(auto)",
 		"Hints": "hints",
-		"PoweredBy": "Powered by <a href=\"https://cloud.yadikar.it/\" target=\"_blank\">Yadikar Cloud</a>"
+		"PoweredBy": "Powered by <a href=\"https://www.yadikar.it/\" target=\"_blank\">Yadikar</a>"
 	},
 	"us(workman)": {
 		"langdesc": "English (US, Workman)",
@@ -57,7 +57,7 @@
 		"Errors": " errors",
 		"Auto": "(auto)",
 		"Hints": "hints",
-		"PoweredBy": "Powered by <a href=\"https://cloud.yadikar.it/\" target=\"_blank\">Yadikar Cloud</a>"
+		"PoweredBy": "Powered by <a href=\"https://www.yadikar.it/\" target=\"_blank\">Yadikar</a>"
 	},	
 	"be": {
 		"langdesc": "België",
@@ -67,7 +67,7 @@
 		"Errors": " грешки",
 		"Auto": "(Авто)",
 		"Hints": "намеци",
-		"PoweredBy": "Задвижвани от <a href=\"https://cloud.yadikar.it/\" target=\"_blank\">Yadikar Cloud</a>"
+		"PoweredBy": "Задвижвани от <a href=\"https://www.yadikar.it/\" target=\"_blank\">Yadikar</a>"
 	},	
 	"bg": {
 		"langdesc": "Bulgarian",
@@ -77,7 +77,7 @@
 		"Errors": " грешки",
 		"Auto": "(Авто)",
 		"Hints": "намеци",
-		"PoweredBy": "Задвижвани от <a href=\"https://cloud.yadikar.it/\" target=\"_blank\">Yadikar Cloud</a>"
+		"PoweredBy": "Задвижвани от <a href=\"https://www.yadikar.it/\" target=\"_blank\">Yadikar</a>"
 	},
 	"de": {
 		"langdesc": "Deutsch",
@@ -87,7 +87,7 @@
 		"Errors": " Fehler",
 		"Auto": "(авто)",
 		"Hints": "hinweise",
-		"PoweredBy": "Angetrieben von <a href=\"https://cloud.yadikar.it/\" target=\"_blank\">Yadikar Cloud</a>"
+		"PoweredBy": "Angetrieben von <a href=\"https://www.yadikar.it/\" target=\"_blank\">Yadikar</a>"
 	},
 	"ch": {
 		"langdesc": "Deutsch (Schweiz)",
@@ -97,7 +97,7 @@
 		"Errors": " Fehler",
 		"Auto": "(авто)",
 		"Hints": "hinweise",
-		"PoweredBy": "Angetrieben von <a href=\"https://cloud.yadikar.it/\" target=\"_blank\">Yadikar Cloud</a>"
+		"PoweredBy": "Angetrieben von <a href=\"https://www.yadikar.it/\" target=\"_blank\">Yadikar</a>"
 	},	
 	"es": {
 		"langdesc": "Spanish",
@@ -107,7 +107,7 @@
 		"Errors": " errores",
 		"Auto": "(auto)",
 		"Hints": "pistas",
-		"PoweredBy": "Energizado por <a href=\"https://cloud.yadikar.it/\" target=\"_blank\">Yadikar Cloud</a>"
+		"PoweredBy": "Energizado por <a href=\"https://www.yadikar.it/\" target=\"_blank\">Yadikar</a>"
 	},
 	"latam": {
 		"langdesc": "Español (latinoamarican)",
@@ -117,7 +117,7 @@
 		"Errors": " errores",
 		"Auto": "(auto)",
 		"Hints": "pistas",
-		"PoweredBy": "Energizado por <a href=\"https://cloud.yadikar.it/\" target=\"_blank\">Yadikar Cloud</a>"
+		"PoweredBy": "Energizado por <a href=\"https://www.yadikar.it/\" target=\"_blank\">Yadikar</a>"
 	},	
 	"fr": {
 		"langdesc": "French",
@@ -127,7 +127,7 @@
 		"Errors": " erreurs",
 		"Auto": "(auto)",
 		"Hints": "astuces",
-		"PoweredBy": "Alimenté par <a href=\"https://cloud.yadikar.it/\" target=\"_blank\">Yadikar Cloud</a>"
+		"PoweredBy": "Alimenté par <a href=\"https://www.yadikar.it/\" target=\"_blank\">Yadikar</a>"
 	},
 	"fr(afnor)": {
 		"langdesc": "Français (afnor)",
@@ -137,7 +137,7 @@
 		"Errors": " erreurs",
 		"Auto": "(voiture)",
 		"Hints": "astuces",
-		"PoweredBy": "Alimenté par <a href=\"https://cloud.yadikar.it/\" target=\"_blank\">Yadikar Cloud</a>"
+		"PoweredBy": "Alimenté par <a href=\"https://www.yadikar.it/\" target=\"_blank\">Yadikar</a>"
 	},
 	"fr(bepo)": {
 		"langdesc": "Français (bépo)",
@@ -147,7 +147,7 @@
 		"Errors": " erreurs",
 		"Auto": "(voiture)",
 		"Hints": "astuces",
-		"PoweredBy": "Alimenté par <a href=\"https://cloud.yadikar.it/\" target=\"_blank\">Yadikar Cloud</a>"
+		"PoweredBy": "Alimenté par <a href=\"https://www.yadikar.it/\" target=\"_blank\">Yadikar</a>"
 	},
 	"fr(dvorak)": {
 		"langdesc": "Français (dvorak-fr)",
@@ -157,7 +157,7 @@
 		"Errors": " erreurs",
 		"Auto": "(voiture)",
 		"Hints": "astuces",
-		"PoweredBy": "Alimenté par <a href=\"https://cloud.yadikar.it/\" target=\"_blank\">Yadikar Cloud</a>"
+		"PoweredBy": "Alimenté par <a href=\"https://www.yadikar.it/\" target=\"_blank\">Yadikar</a>"
 	},
 	"fr(lafayette)": {
 		"langdesc": "Français (Lafayette)",
@@ -167,7 +167,7 @@
 		"Errors": " erreurs",
 		"Auto": "(voiture)",
 		"Hints": "astuces",
-		"PoweredBy": "Alimenté par <a href=\"https://cloud.yadikar.it/\" target=\"_blank\">Yadikar Cloud</a>"
+		"PoweredBy": "Alimenté par <a href=\"https://www.yadikar.it/\" target=\"_blank\">Yadikar</a>"
 	},
 	"fr(qwerty42)": {
 		"langdesc": "Français (qwerty42)",
@@ -177,7 +177,7 @@
 		"Errors": " erreurs",
 		"Auto": "(voiture)",
 		"Hints": "astuces",
-		"PoweredBy": "Alimenté par <a href=\"https://cloud.yadikar.it/\" target=\"_blank\">Yadikar Cloud</a>"
+		"PoweredBy": "Alimenté par <a href=\"https://www.yadikar.it/\" target=\"_blank\">Yadikar</a>"
 	},	
 	"it": {
 		"langdesc": "Italiana",
@@ -187,7 +187,7 @@
 		"Errors": " errori",
 		"Auto": "(auto)",
 		"Hints": "consigli",
-		"PoweredBy": "Offerto da <a href=\"https://cloud.yadikar.it/\" target=\"_blank\">Yadikar Cloud</a>"
+		"PoweredBy": "Offerto da <a href=\"https://www.yadikar.it/\" target=\"_blank\">Yadikar</a>"
 	},
 	"pt": {
 		"langdesc": "Português",
@@ -197,7 +197,7 @@
 		"Errors": " erros",
 		"Auto": "(auto)",
 		"Hints": "dicas",
-		"PoweredBy": "Distribuído por <a href=\"https://cloud.yadikar.it/\" target=\"_blank\">Yadikar Cloud</a>"
+		"PoweredBy": "Distribuído por <a href=\"https://www.yadikar.it/\" target=\"_blank\">Yadikar</a>"
 	},
 	"br": {
 		"langdesc": "Português (Brasileiro)",
@@ -207,7 +207,7 @@
 		"Errors": " erros",
 		"Auto": "(auto)",
 		"Hints": "dicas",
-		"PoweredBy": "Distribuído por <a href=\"https://cloud.yadikar.it/\" target=\"_blank\">Yadikar Cloud</a>"
+		"PoweredBy": "Distribuído por <a href=\"https://www.yadikar.it/\" target=\"_blank\">Yadikar</a>"
 	},	
 	"ug": {
 		"langdesc": "ئۇيغۇرچە",
@@ -217,7 +217,7 @@
 		"Errors": " مىنۇتلۇق بېسىش",
 		"Auto": "(ئۆز)",
 		"Hints": "ئىشارەت",
-		"PoweredBy": "<a href=\"https://cloud.yadikar.it/\" target=\"_blank\">يادىكار بۇلۇت</a> تېخنىكىسى"
+		"PoweredBy": "<a href=\"https://www.yadikar.it/\" target=\"_blank\">يادىكار بۇلۇت</a> تېخنىكىسى"
 	},
 	"tr": {
 		"langdesc": "Türkçe (Q)",
@@ -227,7 +227,7 @@
 		"Errors": " hatalar",
 		"Auto": "(Oto)",
 		"Hints": "ipuçları",
-		"PoweredBy": "<a href=\"https://cloud.yadikar.it/\" target=\"_blank\">Yadikar Cloud</a> Tarafından Desteklenmektedir"
+		"PoweredBy": "<a href=\"https://www.yadikar.it/\" target=\"_blank\">Yadikar</a> Tarafından Desteklenmektedir"
 	},	
 	"ru": {
 		"langdesc": "Russian",
@@ -237,7 +237,7 @@
 		"Errors": " ошибки",
 		"Auto": "(авто)",
 		"Hints": "намеки",
-		"PoweredBy": "Питаться от <a href=\"https://cloud.yadikar.it/\" target=\"_blank\">Yadikar Cloud</a>"
+		"PoweredBy": "Питаться от <a href=\"https://www.yadikar.it/\" target=\"_blank\">Yadikar</a>"
 	},
 	"ru(legacy)": {
 		"langdesc": "Russian (legacy)",
@@ -247,6 +247,6 @@
 		"Errors": " ошибки",
 		"Auto": "(авто)",
 		"Hints": "намеки",
-		"PoweredBy": "Питаться от <a href=\"https://cloud.yadikar.it/\" target=\"_blank\">Yadikar Cloud</a>"
+		"PoweredBy": "Питаться от <a href=\"https://www.yadikar.it/\" target=\"_blank\">Yadikar</a>"
 	}	
 }
