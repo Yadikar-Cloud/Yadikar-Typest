@@ -8,54 +8,54 @@
   <script type="module" src="x-keyboard-master/main.js"></script>
   <script src="./webtypist.js" type="text/javascript" defer></script>
   <link href="./webtypist.css" type="text/css" rel="stylesheet">
-</head>
-<script type="text/javascript" src="multilang.js"></script>
-<script type="text/javascript">
-	var multilang;
-	
-	function onLoad() {
-		// create object, load JSON file, default to 'nl', and callback to initList when ready loading
-		//multilang = new MultiLang('languages.json', 'nl', this.initList);
+	<script type="text/javascript" src="multilang.js"></script>
+	<script type="text/javascript">
+		var multilang;
 		
-		// alternatively
-		multilang = new MultiLang('languages.json', null, this.initList); // default to browser language
-		//multilang = new MultiLang('languages.json'); // only load JSON, no callback
-	}
-
-	function langSelectChange(sel) {
-		// switch to selected language code
-		multilang.setLanguage(sel.value);
-		
-		// refresh labels
-		refreshLabels();
-		// adjust text direction
-		adjustDirection();
-	}
-
-	function initList() {
-		// get language list element
-		var layout = document.getElementById("layout");
-		langSelectChange(layout);
-	}
+		function onLoad() {
+			// create object, load JSON file, default to 'nl', and callback to initList when ready loading
+			//multilang = new MultiLang('languages.json', 'nl', this.initList);
 			
-	function refreshLabels() {
+			// alternatively
+			multilang = new MultiLang('languages.json', null, this.initList); // default to browser language
+			//multilang = new MultiLang('languages.json'); // only load JSON, no callback
+		}
 
-		// Basically do the following for all document elements:
-		//document.getElementById("Options").textContent = multilang.get("Options");
+		function langSelectChange(sel) {
+			// switch to selected language code
+			multilang.setLanguage(sel.value);
+			
+			// refresh labels
+			refreshLabels();
+			// adjust text direction
+			adjustDirection();
+		}
 
-		// loop through all document elements
-		var allnodes = document.body.getElementsByClassName("translate");
+		function initList() {
+			// get language list element
+			var layout = document.getElementById("layout");
+			langSelectChange(layout);
+		}
+				
+		function refreshLabels() {
 
-		for (var i=0, max=allnodes.length; i < max; i++) {
-			// get id current elements
-			var string = allnodes[i].getAttribute("data-string");
-			// if id exists, set get id current elements
-			if (string != '') {
-				allnodes[i].innerHTML = multilang.get(string);
+			// Basically do the following for all document elements:
+			//document.getElementById("Options").textContent = multilang.get("Options");
+
+			// loop through all document elements
+			var allnodes = document.body.getElementsByClassName("translate");
+
+			for (var i=0, max=allnodes.length; i < max; i++) {
+				// get id current elements
+				var string = allnodes[i].getAttribute("data-string");
+				// if id exists, set get id current elements
+				if (string != '') {
+					allnodes[i].innerHTML = multilang.get(string);
+				};
 			};
-		};
-	}
-</script>
+		}
+	</script>  
+</head>
 <body onload="onLoad()">
   <header id="header">
     <h1 class="translate" data-string="Title"> Yadikar Typing Practice </h1>
