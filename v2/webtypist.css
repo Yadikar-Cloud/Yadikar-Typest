@@ -2,7 +2,7 @@
  * Full-height page, vertically justified content
  */
 @font-face {
-  font-family: ukij;
+  font-family: "UKIJ";
   src: url(./ukij.ttf);
 }
 
@@ -46,7 +46,7 @@ x-keyboard p {
 
 header, footer {
   color: brown;
-	font-family: Georgia, 'UKIJ';
+	font-family: Georgia, "UKIJ";
 }
 
 h1 {
@@ -85,13 +85,13 @@ footer {
 #metrics {
   float: right;
   margin-top: 6px;
-	font-family: Georgia,ukij;
+	font-family: Georgia,"UKIJ";
 }
 
 form * {
   margin: 0 6px 6px 0;
   vertical-align: middle;
-	font-family: Verdana,ukij;
+	font-family: Verdana,"UKIJ";
 	direction: var(--form-dir);
 }
 

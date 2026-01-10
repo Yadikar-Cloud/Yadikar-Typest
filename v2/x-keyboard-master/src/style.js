@@ -28,7 +28,8 @@ const main = `
   }
   text {
     fill: ${KEY_COLOR};
-    font: normal 20px ukij;
+    font-family: "UKIJ", sans-serif;
+    font-size: 20px;
     text-align: center;
   }
   #Backspace text {
