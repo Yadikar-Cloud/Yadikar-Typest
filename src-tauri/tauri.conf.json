@@ -26,11 +26,11 @@
     "active": true,
     "targets": "all",
     "icon": [
-      "icons/32x32.png",
-      "icons/128x128.png",
-      "icons/128x128@2x.png",
-      "icons/icon.icns",
-      "icons/icon.ico"
+      "../v2/image/keyboard-32x32.png",
+      "../v2/image/keyboard-64x64.png",
+      "../v2/image/keyboard-128x128.png",
+      "../v2/image/keyboard-256x256.png",
+      "../v2/image/keyboard-512x512.ico"
     ]
   }
 }
